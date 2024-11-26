@@ -1,5 +1,6 @@
 package com.comunidadedevspace.imc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             val alturaStr: String = edtAltura.text.toString()
 
             if(pesoStr == "" || alturaStr == ""){
-                // Mostrar mensagem para o usuario
+                // Mostrar SnackBar para o usuario
                 Snackbar
                     .make(
                         edtPeso,
@@ -39,16 +40,22 @@ class MainActivity : AppCompatActivity() {
                         Snackbar.LENGTH_LONG
                     ).show()
             }else{
+                //Fazer o calculo do IMC
                 val peso = pesoStr.toFloat()
                 val altura = alturaStr.toFloat()
                 val resultado = peso / (altura * altura)
                 println(resultado)
+                //Navegar para a proxima tela
+                //Criar o layout da proxima tela
+                //Passar dados para a proxima tela
+
+                //Intent -  Classe do proprio android
+                val intent = Intent(this, ResultActivity::class.java)
+                intent.putExtra(KEY_RESULT_IMC, resultado)
+                startActivity(intent)
             }
 
-            //Fazer o calculo do IMC
-
-
-
         }
+
     }
 }
