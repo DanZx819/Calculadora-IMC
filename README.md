@@ -14,7 +14,7 @@ Esse projeto mostra uma interface em que o usuario digita o seu peso e sua altur
 - ViewGroups
   - LinearLayout
   - ConstraintLayout
--Views
+- Views
   - ImageView
   - TextView
   - EditText
