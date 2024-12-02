@@ -1,5 +1,5 @@
 # Calculadora IMC
-Desc
+Esse projeto mostra uma interface em que o usuario digita o seu peso e sua altura, que ao pegarmos conseguimos calcular o seu IMC e classifica-lo na proxima tela. Esse APP foi desenvolvido com a linguagem de programação Kotlin.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
