@@ -8,13 +8,24 @@ Esse projeto mostra uma interface em que o usuario digita o seu peso e sua altur
 <img src="https://github.com/user-attachments/assets/f523002c-4bbf-47c6-80bd-cc2a9987b023" alt="Tela final" width="160">
 
 ## Tecnologias
-Techs
+- Linear Layout
+- Intent
+- SnackBar
+- ViewGroups
+  - LinearLayout
+  - ConstraintLayout
+-Views
+  - ImageView
+  - TextView
+  - EditText
+  - Button
+  
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2024 Daniel de Oliveira Zanchetta
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
