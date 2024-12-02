@@ -3,8 +3,10 @@ Esse projeto mostra uma interface em que o usuario digita o seu peso e sua altur
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src"https://github.com/user-attachments/assets/3aa3c462-61b7-4b15-892d-d20ee1bc0851" width"160"/>
-<img src"https://github.com/user-attachments/assets/f523002c-4bbf-47c6-80bd-cc2a9987b023" width"160"/>
+
+<img src="https://github.com/user-attachments/assets/3aa3c462-61b7-4b15-892d-d20ee1bc0851" alt="Tela inicial" width="160">
+<img src="https://github.com/user-attachments/assets/f523002c-4bbf-47c6-80bd-cc2a9987b023" alt="Tela final" width="160">
+
 ## Tecnologias
 Techs
 
