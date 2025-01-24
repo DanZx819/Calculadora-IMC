@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.comunidadedevspace.imc"
+    namespace = "com.comunidadedevspace.IMC"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.comunidadedevspace.imc"
+        applicationId = "com.comunidadedevspace.IMC"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

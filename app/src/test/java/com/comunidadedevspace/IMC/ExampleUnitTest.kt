@@ -1,4 +1,4 @@
-package com.comunidadedevspace.imc
+package com.comunidadedevspace.IMC
 
 import org.junit.Test
 

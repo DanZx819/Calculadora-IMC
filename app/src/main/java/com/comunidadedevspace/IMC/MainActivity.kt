@@ -1,4 +1,4 @@
-package com.comunidadedevspace.imc
+package com.comunidadedevspace.IMC
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
